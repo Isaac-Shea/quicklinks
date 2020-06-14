@@ -1,0 +1,151 @@
+/* Fonts */
+@font-face {
+    font-family: "newYork";
+    src: url("./assets/fonts/NewYorkExtraLarge-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "newYork";
+    src: url("./assets/fonts/NewYorkExtraLarge-MediumItalic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "newYork";
+    src: url("./assets/fonts/NewYorkExtraLarge-Black.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "newYork";
+    src: url("./assets/fonts/NewYorkExtraLarge-BlackItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* General */
+body, html {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Text Elements */
+h1 {
+    font-family: "newYork";
+    font-size: 25px;
+    text-transform: uppercase;
+    
+    color: white;
+    
+    text-align: center;
+}
+
+h2 {
+    font-family: "newYork";
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    color: white;
+    
+    text-align: center;
+}
+
+p {
+    font-family: "newYork";
+    
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Page Elements */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    height: 20%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 60%;
+    padding: 40px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    height: 20%;
+    padding: 40px;
+}
+
+.button {   
+    padding: 15px 0px;
+    margin: 10px;
+    max-height: 50px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background: none;
+    color: white;
+    text-decoration: none; 
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-bottom: 1px solid white;
+    
+    font-family: "newYork";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button.primary {
+    border: 1px solid white;
+}
+
+.button:hover {
+    background: white;
+    color: #202020;
+    
+    transition-duration: 0.1s;
+}
+
+.material-icons{
+    margin: 10px;
+}
