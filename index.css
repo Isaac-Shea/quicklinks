@@ -136,7 +136,15 @@ a {
 }
 
 .button.primary {
-    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    
+    max-height: none;
+    flex-direction: column;
+}
+
+.button.primary > p {
+    margin-top: 0px;
+    font-weight: normal;
 }
 
 .button:hover {
