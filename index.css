@@ -152,8 +152,8 @@ a {
     justify-content: center;
     flex-grow: 1;
     
-    background-color: rgba(255, 255, 255, 0.25);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #343434;
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
@@ -169,12 +169,12 @@ a {
     font-family: "Metropolis", sans-serif;
     font-size: 25px;
     text-transform: uppercase;
-    color: white;
     
     text-align: center;
 }
 
 .card > p {
+    color: #343434;
     margin: 20px 0px;
     font-weight: normal;
     text-align: right;
