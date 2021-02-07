@@ -59,6 +59,7 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     text-transform: none;
+    text-align: center;
     
     color: white;
 }
